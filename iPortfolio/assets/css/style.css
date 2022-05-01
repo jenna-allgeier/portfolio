@@ -365,7 +365,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -394,7 +394,45 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #003135;
+}
+
+.lang-bar {
+  background-color: #6699cc;
+}
+
+.other-bar {
+  background-color: #339999;
+}
+
+.data-bar {
+  background-color: #006666;
+}
+
+.lib-bar {
+  background-color: #e6857c;
+}
+
+.skill-title {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.skill-title-lang {
+  color: #6699cc;
+}
+
+.skill-title-other {
+  color: #339999;
+}
+
+.skill-title-data {
+  color: #006666;
+}
+
+.skill-title-lib {
+  color: #e6857c;
 }
 
 /*--------------------------------------------------------------
